@@ -35,8 +35,8 @@ h1, h2, h3, h4{
     transform:rotate(90deg);
     height:800px;
     width:auto;
-    margin-top: -100px;
-    margin-bottom:-100px;
+    transform-origin: center center; 
+    /*margin-top: -100px;*/
 }
 p, ol, ul{
     line-height:1.5;
@@ -53,6 +53,13 @@ p{
     font-weight: 300;
     line-height: 1.6;
 }
+#container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+ 
 
 
 
